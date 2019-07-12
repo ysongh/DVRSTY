@@ -11,15 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.landing{
+  background-color: #7EA8BE
+}
+
+.landing__card{
+  background-color: rgb(232, 232, 224);
+}
 
 .landing__image{
   width: 250px;
-  
 }
 
 .landing__information{
   width: 50vw;
   text-align: center;
+  padding: 20px;
+  border-radius: 50px;
 }
 
 .landing__button{
@@ -29,4 +37,8 @@ code {
 .center{
   display: block;
   margin: 20px auto;
+}
+
+.greenText{
+  color: green;
 }
