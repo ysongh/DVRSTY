@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.landing__image{
+  width: 250px;
+  
+}
+
+.landing__information{
+  width: 50vw;
+  text-align: center;
+}
+
+.landing__button{
+  padding: 10px;
+}
+
+.center{
+  display: block;
+  margin: 20px auto;
+}
