@@ -1,5 +1,6 @@
 import React from 'react';
 import Sky from 'react-sky';
+import { Link } from 'react-router-dom';
 
 import Logo from '../img/Logo.png';
 import newLeaf from '../img/newLeaf.png'
@@ -25,7 +26,7 @@ const Landing = () => {
                         and user friendly for the horticulturists.</p>
                     </div>
                     <div className="card-action green-text">
-                        <a className="green-text" href="/">Enter</a>
+                        <Link className="green-text" to="/home">Enter</Link>
                     </div>
                 </div>
                 </div>
