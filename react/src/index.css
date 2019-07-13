@@ -12,6 +12,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+nav {
+  background-color: rgb(11, 75, 3);
+  padding: 2px;
+  margin: 2px;
+}
+
+.nav__logo{
+  width: 50px;
+}
+
 .landing{
   background-color: #7EA8BE
 }
@@ -37,7 +48,7 @@ code {
 
 .center{
   display: block;
-  margin: 20px auto;
+  margin: 5px auto ;
 }
 
 .greenText{
