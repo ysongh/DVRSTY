@@ -15,7 +15,7 @@ const Landing = () => {
                 how={200} /* Pass the number of images Sky will render chosing randomly */
                 time={40} /* time of animation */
                 size={'70px'} /* size of the rendered images */
-                background={'#a5f035'} /* color of background *//>
+                background={'#003308'} /* color of background *//>
             <div className="row">
                 <div className="col s6 offset-s3">
                 <div className="card landing__card darken-1">

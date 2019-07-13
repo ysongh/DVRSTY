@@ -5,7 +5,7 @@ class Home extends Component {
     render() {
       return (
         <div>
-            <h4></h4>
+       
             <img src={ SphereImage } alt="sphere" class="center" ></img>
         
             <div class="row" >
@@ -15,13 +15,13 @@ class Home extends Component {
               <span class="card-title">Seattle Spheres Data</span>
               <hr></hr>
               <br></br>
-              <p>Temperature Data:  <button> More </button>  </p>
+              <p>Temperature Data: <a class="btn-floating btn-small waves-effect waves-blue"><i class="material-icons">+</i></a> </p>
               <br></br>
-              <p>Dew Point Data: <button> More </button>  </p>
+              <p>Dew Point Data: <a class="btn-floating btn-small waves-effect waves-blue"><i class="material-icons">+</i></a> </p>
               <br></br>
-              <p>CO2 Data: <button> More </button>  </p>
+              <p>CO2 Data: <a class="btn-floating btn-small waves-effect waves-blue"><i class="material-icons">+</i></a> </p>
               <br></br>
-              <p>Humidity Data: <button> More </button>   </p>
+              <p>Humidity Data: <a class="btn-floating btn-small waves-effect waves-blue"><i class="material-icons">+</i></a></p>
             </div>
             
             </div>
@@ -36,11 +36,11 @@ class Home extends Component {
               <span class="card-title">Comparators</span>
               <hr></hr>
               <br></br>
-              <p>Temperature + CO2 Data:  <button> More </button>  </p>
+              <p>Temperature + CO2 Data:  <a class="btn-floating btn-small waves-effect waves-blue"><i class="material-icons">+</i></a> </p>
               <br></br>
-              <p>Graph: <button> More </button>  </p>
+              <p>Graph: <a class="btn-floating btn-small waves-effect waves-blue"><i class="material-icons">+</i></a> </p>
               <br></br>
-              
+              <a class="btn-floating btn-medium waves-effect waves-blue"><i class="material-icons">+</i></a>
             </div>
             
             </div>
