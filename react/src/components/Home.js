@@ -122,7 +122,7 @@ class Home extends Component {
             background={'#003308'} /* color of background *//>
           <div className="row marginY5">
             <div className="col s6">
-              <DataCard cardName="Temperature" data={this.props.co2Data}/>
+              <DataCard cardName="Temperature" data={this.state.co2Data}/>
             </div>
             <div className="col s6">
               <DataCard cardName="CO2"/>
