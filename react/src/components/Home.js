@@ -1,12 +1,23 @@
 import React, { Component } from 'react';
+import Sky from 'react-sky';
+
 import LineChart from "./Graph";
 import DataCard from "./DataCard";
+import newLeaf from '../img/newLeaf.png'
 
 class Home extends Component {
     render() {
       return (
         <div>
-          <div className="row">
+          <Sky
+            images={{
+                0: newLeaf
+            }}
+            how={200} /* Pass the number of images Sky will render chosing randomly */
+            time={40} /* time of animation */
+            size={'70px'} /* size of the rendered images */
+            background={'#003308'} /* color of background *//>
+          <div className="row marginY5">
             <div className="col s6">
               <DataCard cardName="Temperature"/>
             </div>
@@ -14,7 +25,7 @@ class Home extends Component {
               <DataCard cardName="CO2"/>
             </div>
           </div>
-          <div className="row">
+          <div className="row marginY5">
             <div className="col s6">
               <DataCard cardName="Dew Point"/>
             </div>

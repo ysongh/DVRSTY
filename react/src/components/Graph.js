@@ -40,7 +40,7 @@ class LineChart extends React.Component {
                   options={this.state.options}
                   series={this.state.series}
                   type="line"
-                  width="800"
+                  width="600"
                   height="200"
               />
             </div>

@@ -51,3 +51,7 @@ h4 {
 img {
   align-content: center;
 }
+
+.marginY5{
+  margin: 0 50px;
+}
