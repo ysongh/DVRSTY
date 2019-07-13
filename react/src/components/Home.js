@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import SphereImage from "../img/sphere.jpg";
+import LineChart from "./Graph";
 
 class Home extends Component {
     render() {
       return (
         <div>
-       
-            <img src={ SphereImage } alt="sphere" class="center" ></img>
-        
             <div class="row" >
             <div class="col s6 offset-s3" >
             <div class="card light-green" >
@@ -15,13 +13,19 @@ class Home extends Component {
               <span class="card-title">Seattle Spheres Data</span>
               <hr></hr>
               <br></br>
-              <p>Temperature Data: <a class="btn-floating btn-small waves-effect waves-blue"><i class="material-icons">+</i></a> </p>
+              <p>Temperature Data: </p>
+              <LineChart />
               <br></br>
-              <p>Dew Point Data: <a class="btn-floating btn-small waves-effect waves-blue"><i class="material-icons">+</i></a> </p>
+              <p>Dew Point Data:</p>
+              <LineChart />
               <br></br>
-              <p>CO2 Data: <a class="btn-floating btn-small waves-effect waves-blue"><i class="material-icons">+</i></a> </p>
+              <p>CO2 Data:</p>
+              <LineChart />
               <br></br>
-              <p>Humidity Data: <a class="btn-floating btn-small waves-effect waves-blue"><i class="material-icons">+</i></a></p>
+              <p>Humidity Data: </p>
+              <a className="btn-floating btn-small waves-effect waves-blue"><i
+                  className="material-icons">+</i></a>
+              <LineChart />
             </div>
             
             </div>
@@ -36,7 +40,7 @@ class Home extends Component {
               <span class="card-title">Comparators</span>
               <hr></hr>
               <br></br>
-              <p>Temperature + CO2 Data:  <a class="btn-floating btn-small waves-effect waves-blue"><i class="material-icons">+</i></a> </p>
+              <p>Temperature + CO2 Data: </p> <LineChart />
               <br></br>
               <p>Graph: <a class="btn-floating btn-small waves-effect waves-blue"><i class="material-icons">+</i></a> </p>
               <br></br>
