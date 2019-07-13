@@ -10,23 +10,44 @@ class Home extends Component {
         
             <div class="row" >
             <div class="col s6 offset-s3" >
-            <div class="card blue-grey darken-1" >
+            <div class="card light-green" >
             <div class="card-content white-text">
-              <span class="card-title">Seattle Spheres</span>
+              <span class="card-title">Seattle Spheres Data</span>
               <hr></hr>
               <br></br>
-              <p>Temperature:  <button> More </button>  </p>
+              <p>Temperature Data:  <button> More </button>  </p>
               <br></br>
-              <p>Dew Point: <button> More </button>  </p>
+              <p>Dew Point Data: <button> More </button>  </p>
               <br></br>
-              <p>CO2: <button> More </button>  </p>
+              <p>CO2 Data: <button> More </button>  </p>
               <br></br>
-              <p>Humidity: <button> More </button>   </p>
+              <p>Humidity Data: <button> More </button>   </p>
             </div>
             
             </div>
             </div>
             </div>
+
+
+            <div class="row" >
+            <div class="col s6 offset-s3" >
+            <div class="card light-green" >
+            <div class="card-content white-text">
+              <span class="card-title">Comparators</span>
+              <hr></hr>
+              <br></br>
+              <p>Temperature + CO2 Data:  <button> More </button>  </p>
+              <br></br>
+              <p>Graph: <button> More </button>  </p>
+              <br></br>
+              
+            </div>
+            
+            </div>
+            </div>
+            </div>
+
+
 
 
         </div>
