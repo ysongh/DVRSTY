@@ -1,11 +1,24 @@
 import React, { Component } from 'react';
 import SphereImage from "../img/sphere.jpg";
 
+
 class Home extends Component {
     render() {
       return (
-        <div>
-       
+        <div className="home__background">
+
+        <nav>
+        <div class="nav-wrapper">
+    
+           <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a>Home</a></li>
+           </ul>
+         </div>
+        </nav>
+
+
+
+
             <img src={ SphereImage } alt="sphere" class="center" ></img>
         
             <div class="row" >
