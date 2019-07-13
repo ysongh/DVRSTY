@@ -1,36 +1,27 @@
 import React, { Component } from 'react';
-import SphereImage from "../img/sphere.jpg";
 import LineChart from "./Graph";
+import DataCard from "./DataCard";
 
 class Home extends Component {
     render() {
       return (
         <div>
-            <div class="row" >
-            <div class="col s6 offset-s3" >
-            <div class="card light-green" >
-            <div class="card-content white-text">
-              <span class="card-title">Seattle Spheres Data</span>
-              <hr></hr>
-              <br></br>
-              <p>Temperature Data: </p>
-              <LineChart />
-              <br></br>
-              <p>Dew Point Data:</p>
-              <LineChart />
-              <br></br>
-              <p>CO2 Data:</p>
-              <LineChart />
-              <br></br>
-              <p>Humidity Data: </p>
-              <a className="btn-floating btn-small waves-effect waves-blue"><i
-                  className="material-icons">+</i></a>
-              <LineChart />
+          <div className="row">
+            <div className="col s6">
+              <DataCard cardName="Temperature"/>
             </div>
-            
+            <div className="col s6">
+              <DataCard cardName="CO2"/>
             </div>
+          </div>
+          <div className="row">
+            <div className="col s6">
+              <DataCard cardName="Dew Point"/>
             </div>
+            <div className="col s6">
+              <DataCard cardName="Humidity"/>
             </div>
+          </div>
 
 
             <div class="row" >
