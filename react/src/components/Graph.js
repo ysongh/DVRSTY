@@ -13,8 +13,20 @@ class LineChart extends React.Component {
       },
       series: [
         {
-          name: "Sensors-1",
-          data: this.props.data
+          name: "Sensor-1",
+          data: this.props.data.sensor_1
+        },
+        {
+          name: "Sensor-2",
+          data: this.props.data.sensor_2
+        },
+        {
+          name: "Sensor-3",
+          data: this.props.data.sensor_3
+        },
+        {
+          name: "Sensor-4",
+          data: this.props.data.sensor_4
         },
       ]
     };
