@@ -10,23 +10,12 @@ class LineChart extends React.Component {
         chart: {
           type: "line",
         },
-        xaxis: {
-          categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999],
-        },
       },
       series: [
         {
           name: "series-1",
-          data: [43, 72, 23, 94, 49, 26, 14, 99]
+          data: this.props.data
         },
-        {
-          name: "series-2",
-          data: [34, 77, 45, 50, 53, 60, 38, 84]
-        },
-        {
-          name: "series-3",
-          data: [58, 86, 55, 32, 15, 35, 63, 97]
-        }
       ]
     };
   }
