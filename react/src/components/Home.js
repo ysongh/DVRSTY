@@ -356,7 +356,7 @@ class Home extends Component {
               <span class="card-title">Comparators</span>
               <hr></hr>
               <br></br>
-              <p>Temperature + CO2 Data: </p> <LineChart />
+              <p>Temperature + CO2 Data: </p>
               <br></br>
               <p>Graph: <a class="btn-floating btn-small waves-effect waves-blue"><i class="material-icons">+</i></a> </p>
               <br></br>
