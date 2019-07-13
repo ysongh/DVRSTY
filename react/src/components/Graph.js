@@ -16,15 +16,15 @@ class LineChart extends React.Component {
       },
       series: [
         {
-          name: "series-1",
+          name: "Sensors-1",
           data: [43, 72, 23, 94, 49, 26, 14, 99]
         },
         {
-          name: "series-2",
+          name: "Sensors-2",
           data: [34, 77, 45, 50, 53, 60, 38, 84]
         },
         {
-          name: "series-3",
+          name: "Sensors-3",
           data: [58, 86, 55, 32, 15, 35, 63, 97]
         }
       ]
