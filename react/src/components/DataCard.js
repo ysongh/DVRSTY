@@ -8,8 +8,7 @@ class DataCard extends React.Component {
               <div className="card-content white-text">
                 <p>{this.props.cardName} Data:</p>
                 <LineChart/>
-                <a className="btn-floating btn-small waves-effect waves-blue"><i
-                    className="material-icons">+</i></a>
+                <a href='/variable' className="waves-effect waves-teal btn-flat">More</a>
               </div>
             </div>
     );

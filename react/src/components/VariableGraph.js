@@ -1,7 +1,7 @@
 import Chart from "react-apexcharts";
 import React from 'react';
 
-class LineChart extends React.Component {
+class VariableGraph extends React.Component {
   constructor(props) {
     super(props);
 
@@ -40,8 +40,8 @@ class LineChart extends React.Component {
                   options={this.state.options}
                   series={this.state.series}
                   type="line"
-                  width="800"
-                  height="200"
+                  width="1000"
+                  height="800"
               />
             </div>
           </div>
@@ -50,4 +50,4 @@ class LineChart extends React.Component {
   }
 }
 
-export default LineChart;
+export default VariableGraph;
